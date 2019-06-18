@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tittle</title>
+    <script>
+        remChange();
+        window.addEventListener('resize',remChange);
+        function remChange() {
+            let html = document.querySelector("html");
+            let width = html.getBoundingClientRect().width;
+            //console.log(width);
+            html.style.fontSize = width/3.75 + 'px';
+        }
+    </script>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/slide.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div class="header">
+            <div class="place">
+                <span>长沙</span>
+                <i class="p-icon"></i>
+            </div>
+            <div class="search">
+                <i class="s-icon"></i>
+            </div>
+            <div class="user"></div>
+        </div>
+        <div class="banner">
+            <div class="slider">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><a href=""><img src="img/banner/1.webp" alt=""></a></li>
+                    <li class="swiper-slide"><a href=""><img src="img/banner/2.webp" alt=""></a></li>
+                    <li class="swiper-slide"><a href=""><img src="img/banner/3.jpg" alt=""></a></li>
+                    <li class="swiper-slide"><a href=""><img src="img/banner/4.jpg" alt=""></a></li>
+                    <li class="swiper-slide"><a href=""><img src="img/banner/5.webp" alt=""></a></li>
+                    <li class="swiper-slide"><a href=""><img src="img/banner/6.webp" alt=""></a></li>
+                </ul>
+                <div class="swiper-pagination">
+                    <!--<span class="mySwiper-pagination-bullets mySwiper-pagination-bullets-active"></span>-->
+                    <!--<span class="mySwiper-pagination-bullets"></span>-->
+                    <!--<span class="mySwiper-pagination-bullets"></span>-->
+                    <!--<span class="mySwiper-pagination-bullets"></span>-->
+                    <!--<span class="mySwiper-pagination-bullets"></span>-->
+                    <!--<span class="mySwiper-pagination-bullets"></span>-->
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <ul class="nav-con">
+                <li>
+                    <img src="img/nav/1.png" alt="">
+                    <p>火车票</p>
+                </li>
+                <li>
+                    <img src="img/nav/2.png" alt="">
+                    <p>机票</p>
+                </li>
+                <li>
+                    <img src="img/nav/3.png" alt="">
+                    <p>酒店住宿</p>
+                </li>
+                <li>
+                    <img src="img/nav/4.png" alt="">
+                    <p>景点门票</p>
+                </li>
+            </ul>
+        </div>
+        <div class="section"></div>
+        <div class="footer"></div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
