@@ -1,10 +1,26 @@
 @charset "utf-8";
+html，body{
+    width: 100%;
+    overflow: hidden;
+}
 body{
-    height: 5000px;
-    background-color: #ddd;
+    background-color: #f4f4f4;
     font-size: 0.16rem;
 }
+#main{
+    width: 100%;
+    overflow: hidden;
+}
+.head{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%; /*html和body没有设置宽度的话，会造成水平方向超出部分*/
+    height: 0.52rem;
+    z-index: 111;
+}
 .header{
+    z-index: 10;
     display: flex;
     width: 100%;
     height: 0.52rem;
@@ -57,3 +73,4 @@ body{
     color:#93989f;
     font-size: 0.14rem;
 }
+

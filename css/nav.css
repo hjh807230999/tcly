@@ -20,7 +20,24 @@
     width: 0.5rem;
     height: 0.5rem;
 }
-.nav .nav-con li p{
+.nav .nav-con li p,.nav-next li p{
     font-size: 0.14rem;
     margin-top: 0.08rem;
+}
+.nav-next{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 1.5rem;
+    padding-top: 0.2rem;
+    border-top: 1px solid #f4f4f4;
+    margin: auto;
+}
+.nav-next li{
+    width: 20%;
+    text-align: center;
+}
+.nav-next li img{
+    width: 0.28rem;
+    height: 0.28rem;
 }

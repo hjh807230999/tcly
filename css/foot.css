@@ -1,0 +1,106 @@
+@charset "utf-8";
+.footer{
+    width: 100%;
+    margin-top: 0.1rem;
+    background: #f2f4f7;
+}
+.foot-msg{
+    width: 100%;
+    height: 2.88rem;
+    padding: 0.2rem 0;
+    background: #fff;
+}
+.foot-img{
+    display: inline-block;
+    width: 0.34rem;
+    height: 0.36rem;
+    margin-top: 0.24rem;
+    background: url("../img/section/time.png") -0.05rem -0.74rem/1.6rem no-repeat;
+}
+.img2{
+    background-position: -0.44rem -0.74rem;
+}
+.img3{
+    background-position: -0.83rem -0.74rem;
+}
+.img4{
+    background-position: -1.22rem -0.74rem;
+}
+.foot-msg ul{
+    height: 100%;
+}
+.foot-msg ul li{
+    height: 25%;
+    padding-left: 0.3rem;
+}
+.foot-font{
+    display: inline-block;
+    color: #9f8a70;
+    margin-left: 0.2rem;
+}
+.foot-font p{
+    font-size: 0.15rem;
+}
+.foot-font span{
+    font-size: 0.12rem;
+}
+
+.foot-symbol{
+    width: 100%;
+    height: 0.82rem;
+    margin-bottom: 0.05rem;
+}
+.foot-symbol .sym{
+    overflow: hidden;
+    width: 110%;
+    height: 0.4rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.26rem;
+    font-size: 0.12rem;
+    color: #666;
+}
+.foot-symbol .sym li{
+    float: left;
+    width: 0.5rem;
+    margin: 0 0.38rem;
+    text-align: center;
+}
+.foot-symbol .sym img{
+    width: 0.2rem;
+    height: 0.2rem;
+}
+.way{
+    width: 2.8rem;
+    margin-left: 0.7rem;
+    height: 0.16rem;
+    font-size: 0.12rem;
+    color: #666;
+}
+.way i{
+    display: inline-block;
+    width: 0.12rem;
+    height: 0.08rem;
+    margin-right: 0.04rem;
+    background: #f00;
+}
+.way li{
+    float: left;
+    margin:0 0.15rem;
+}
+.footer>p{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #999;
+    font-size: 0.12rem;
+}
+
+.mini-pic{
+    position: fixed;
+    right: 0.04rem;
+    bottom: 1rem;
+    width: 0.6rem;
+    height: 0.5rem;
+    background: url("../img/download.png") 0 0/cover no-repeat;
+}

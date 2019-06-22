@@ -2,6 +2,8 @@
 .banner{
     width: 100%;
     height: 0.96rem;
+    overflow: hidden;/*没有设置这个会造成竖直方向和水平方向的超出部分*/
+    margin-top: 0.52rem;
 }
 .banner .slider{
     position: relative;
@@ -17,8 +19,14 @@
     width: 10%;
     height: 100%;
 }
+.banner .slider a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 .banner .slider img{
     width: 100%;
+    height: 100%;
 }
 .banner .slider .swiper-pagination{
     position: absolute;
